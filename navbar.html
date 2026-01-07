@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Glass Nav with Iframe</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <nav class="sidebar glass">
+        <h2>My Menu</h2>
+        <ul class="nav-links">
+            <!-- Same window -->
+            <li><a href="index.html">Home</a></li>
+
+            <!-- Iframe -->
+            <li><a href="subject.html" target="contentFrame">Subject</a></li>
+            <li><a href="assignment.html" target="contentFrame">Assignment</a></li>
+            <li><a href="online.html" target="contentFrame">Online Classes</a></li>
+
+            <!-- New window -->
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <section class="main-content">
+        <h1>Home</h1>
+        <p>Welcome to the home page.</p>
+    </section>
+
+    <!-- Iframe (Bottom Right Corner) -->
+    <iframe 
+        name="contentFrame"
+        class="content-frame glass"
+        title="Content Frame">
+    </iframe>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    background: #0d0d0d;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-table {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+    background: #1a1a1a;
+}
+
+.project-table th,
+.project-table td {
+    padding: 14px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.project-table th {
+    background: #222;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.project-table tr:nth-child(even) {
+    background: #202020;
+}
+
+/* Status styles */
+.status {
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.completed {
+    color: #4caf50;
+}
+
+.progress {
+    color: #ffb300;
+}
+
+.pending {
+    color: #ff5252;
+}
+
+/* Hover effect */
+.project-table tbody tr:hover {
+    background: #2a2a2a;
+}
+.credit{
+    align-items: baseline;
+    margin-top: 20px;
+    background-color: #333;
+    text-align: center;
+    padding: 0.5px;
+}
